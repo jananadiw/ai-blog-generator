@@ -8,7 +8,7 @@ export default function NavBar() {
         <div>
           <h1 className="text-3xl font-bold">AI Blog Generator</h1>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between space-x-4">
           <a href="#" className="text-white hover:underline">
             Login
           </a>

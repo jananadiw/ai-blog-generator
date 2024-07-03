@@ -1,6 +1,7 @@
 "use client";
 
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 import { useState } from "react";
 
 export default function AllBlogs() {
@@ -30,9 +31,7 @@ export default function AllBlogs() {
           </section>
         </div>
       </div>
-      <footer className="text-center p-4 text-black mt-6">
-        Powered by @jananadiw
-      </footer>
+      <Footer />
     </div>
   );
 }

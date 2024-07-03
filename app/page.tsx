@@ -2,6 +2,7 @@
 
 import Loading from "./components/Loading";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import { useState } from "react";
 
 export default function Home() {
@@ -77,9 +78,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="text-center p-4 text-black mt-6">
-        Powered by @jananadiw
-      </footer>
+      <Footer />
     </div>
   );
 }
